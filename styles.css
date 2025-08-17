@@ -1,0 +1,108 @@
+html {
+  scroll-behavior: smooth;
+
+}
+body {
+      background-color:#0a192f;
+      color: white;          
+      margin: 0;             
+      font-family:Consolas, monospace; 
+      text-align:center;
+      font-size: 1.2em;
+      padding-top: 80px; 
+    }
+    header h1 span {
+      color: #20c997; 
+    }
+    h1,h2{
+      color: white; 
+      text-align: center; 
+      margin-bottom: 0.5em;
+    }
+    section {
+  padding: 1em 1em ;
+}
+
+    .navbar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: #0a192f;
+        padding: 0.5em 0;
+        display: flex;
+        justify-content: center;
+        gap: 1em;
+        z-index: 1000;
+    }
+    .navbar a {
+        color:#20c997;
+        text-decoration: none;
+    }
+     .navbar ul {
+      list-style: none; 
+      padding: 0;
+      margin: 1em 0;
+      display: flex;
+      justify-content: center;
+      gap: 1.5em;
+    }
+    .navbar a {
+      text-decoration: none;
+      color: white;
+      transition: color 0.3s ease;
+    }
+    #projects{
+      text-align: center;
+      margin: 0 auto;
+      max-width: 600px;
+    }
+    nav a:hover {
+      color: #8ff1d3;
+    }
+    #projects, #about, #contact {
+      text-align: center;
+      margin: 2em auto;
+      max-width: 700px;
+      line-height: 1.6em;
+    }
+    #projects a {
+      color:  white;
+      text-decoration: none;
+    }
+    #projects a:hover {
+      color: #8ff1d3;
+    }
+      #work {
+        display: inline-block;
+        text-align: left;
+        font-size:0.9em;
+      }
+      .box {
+      border: 2px solid #20c997; 
+      padding: 0.1em 0.1em;               
+      margin: 0.2em;           
+      display: inline-block;
+      border-radius: 10px;        
+      background-color: #112240;  
+      text-align: center;
+  }
+.box a {
+  color:#20c997;
+   text-decoration: none;
+}
+
+      #contact a {
+      color: #8ff1d3;
+      text-decoration: none;
+    }
+    #contact a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      margin-top: 2em;
+      padding: 1em;
+      border-top: 1px solid #20c997;
+      font-size: 0.9em;
+    }
+
